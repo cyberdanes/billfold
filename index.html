@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Billfold — Receipts & Gift Card Wallet</title>
+  <style>
+    :root { --navy: #1B2E4A; --gray: #4B5563; --light: #F9FAFB; --border: #E5E7EB; --primary: #2563eb; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: var(--gray); background: #fff; line-height: 1.7; }
+    .hero { text-align: center; padding: 80px 24px 60px; background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 100%); }
+    .hero h1 { font-size: 42px; color: var(--navy); margin-bottom: 12px; }
+    .hero .subtitle { font-size: 20px; color: var(--gray); margin-bottom: 32px; }
+    .badges { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .badge { display: inline-block; background: #000; color: #fff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-size: 15px; font-weight: 600; }
+    .badge:hover { opacity: 0.85; }
+    .container { max-width: 720px; margin: 0 auto; padding: 60px 24px; }
+    h2 { font-size: 24px; color: var(--navy); margin-bottom: 16px; }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 24px; }
+    @media (max-width: 600px) { .features { grid-template-columns: 1fr; } }
+    .feature h3 { font-size: 18px; color: var(--navy); margin-bottom: 8px; }
+    .feature p { font-size: 15px; }
+    .highlight { background: var(--light); padding: 60px 24px; text-align: center; }
+    .highlight p { max-width: 600px; margin: 0 auto; font-size: 16px; }
+    .links { display: flex; gap: 24px; justify-content: center; margin-top: 24px; }
+    .links a { color: var(--primary); text-decoration: none; font-size: 15px; }
+    .links a:hover { text-decoration: underline; }
+    footer { text-align: center; padding: 40px 24px; border-top: 1px solid var(--border); font-size: 13px; color: #9CA3AF; }
+    footer a { color: var(--navy); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Billfold</h1>
+    <p class="subtitle">Your receipts and gift cards, organised in one app.</p>
+    <p style="font-size: 16px; color: var(--gray); margin-bottom: 32px;">
+      Scan receipts with smart OCR. Store gift cards securely. Get expiry alerts. Works offline.
+    </p>
+    <div class="badges">
+      <a class="badge" href="https://apps.apple.com/app/billfold-receipts-cards/id6760434024">Download on the App Store</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Everything you need</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Receipt Scanner</h3>
+        <p>Snap a photo and our OCR instantly extracts the merchant, date, total, and line items.</p>
+      </div>
+      <div class="feature">
+        <h3>Gift Card Wallet</h3>
+        <p>Store card numbers and PINs with AES-256 encryption. Tap to reveal at the checkout.</p>
+      </div>
+      <div class="feature">
+        <h3>Expiry Alerts</h3>
+        <p>Get notified 7 days, 1 day, and on the day your gift cards expire. Never lose value.</p>
+      </div>
+      <div class="feature">
+        <h3>Works Offline</h3>
+        <p>Capture receipts and cards without internet. Everything syncs when you're back online.</p>
+      </div>
+      <div class="feature">
+        <h3>Privacy First</h3>
+        <p>Data stored in Sydney, Australia. No ads, no tracking, no data selling.</p>
+      </div>
+      <div class="feature">
+        <h3>Free & Pro</h3>
+        <p>Get started free. Upgrade to Pro for unlimited receipts, gift cards, and CSV/PDF export.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="highlight">
+    <h2>Made in Australia</h2>
+    <p>Billfold is built by Cyberdanes Technologies in Sydney. Your support keeps the app ad-free and privacy-first.</p>
+    <div class="links">
+      <a href="/billfold/privacy">Privacy Policy</a>
+      <a href="/billfold/terms">Terms of Use</a>
+      <a href="/billfold/support">Support</a>
+      <a href="/billfold/delete-account">Delete Account</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Cyberdanes Technologies. All rights reserved.</p>
+    <p style="margin-top: 8px;"><a href="mailto:cyberdanes101@gmail.com">cyberdanes101@gmail.com</a></p>
+  </footer>
+</body>
+</html>
